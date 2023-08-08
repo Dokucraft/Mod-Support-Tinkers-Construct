@@ -1,9 +1,9 @@
 {
-	"credit": "Made by LTK1",
+	"credit": "Made with Blockbench, model by LTK1",
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "tconstruct:block/stone_ladder",
-		"stone_ladder": "tconstruct:block/stone_ladder"
+		"particle": "tconstruct:blocks/stone_ladder",
+		"stone_ladder": "tconstruct:blocks/stone_ladder"
 	},
 	"elements": [
 		{

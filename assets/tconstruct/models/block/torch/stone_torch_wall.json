@@ -1,9 +1,9 @@
 {
 	"ambientocclusion": false,
 	"textures": {
-		"torch": "tconstruct:block/stone_torch",
-		"fire": "tconstruct:block/stone_torch_fire",
-		"particle": "tconstruct:block/stone_torch"
+		"torch": "tconstruct:blocks/stone_torch",
+		"fire": "tconstruct:blocks/stone_torch_fire",
+		"particle": "tconstruct:blocks/stone_torch"
 	},
 	"elements": [
 		{

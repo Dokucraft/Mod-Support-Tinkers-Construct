@@ -1,0 +1,86 @@
+{
+	"credit": "Made by SyndiShanX",
+	"render_type": "minecraft:cutout",
+  "loader": "mantle:retextured",
+  "parent": "block/block",
+  "textures": {
+    "particle": "#drain"
+  },
+  "colors": [{"uvlock": true}],
+  "retextured": ["bricks"],
+  "elements": [
+		{
+			"name": "brick",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#back", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#bricks", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#bricks", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#bricks", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#bricks", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bricks", "cullface": "down"}
+			}
+		},
+		{
+			"name": "drain_west",
+			"from": [-0.5, 3.9, 3.9],
+			"to": [0, 12.1, 12.1],
+			"faces": {
+				"north": {"uv": [4, 4, 5, 12], "texture": "#drain", "cullface": "west"},
+				"south": {"uv": [11, 4, 12, 12], "texture": "#drain", "cullface": "west"},
+				"west": {"uv": [4, 4, 12, 12], "texture": "#drain", "cullface": "west"},
+				"up": {"uv": [4, 4, 12, 5], "rotation": 90, "texture": "#drain", "cullface": "west"},
+				"down": {"uv": [4, 11, 12, 12], "rotation": 270, "texture": "#drain", "cullface": "west"}
+			}
+		},
+		{
+			"name": "drain_east",
+			"from": [16, 3.9, 3.9],
+			"to": [16.5, 12.1, 12.1],
+			"faces": {
+				"north": {"uv": [11, 4, 12, 12], "texture": "#drain", "cullface": "east"},
+				"east": {"uv": [4, 4, 12, 12], "texture": "#drain", "cullface": "east"},
+				"south": {"uv": [4, 4, 5, 12], "texture": "#drain", "cullface": "east"},
+				"up": {"uv": [4, 4, 12, 5], "rotation": 270, "texture": "#drain", "cullface": "east"},
+				"down": {"uv": [4, 11, 12, 12], "rotation": 90, "texture": "#drain", "cullface": "east"}
+			}
+		},
+		{
+			"name": "drain_south",
+			"from": [3.9, 3.9, 16],
+			"to": [12.1, 12.1, 16.5],
+			"faces": {
+				"east": {"uv": [11, 4, 12, 12], "texture": "#drain", "cullface": "south"},
+				"south": {"uv": [4, 4, 12, 12], "texture": "#drain", "cullface": "south"},
+				"west": {"uv": [4, 4, 5, 12], "texture": "#drain", "cullface": "south"},
+				"up": {"uv": [4, 4, 12, 5], "texture": "#drain", "cullface": "south"},
+				"down": {"uv": [4, 11, 12, 12], "texture": "#drain", "cullface": "south"}
+			}
+		},
+		{
+			"name": "drain_top",
+			"from": [3.9, 16, 3.9],
+			"to": [12.1, 16.5, 12.1],
+			"faces": {
+				"north": {"uv": [4, 4, 12, 5], "rotation": 180, "texture": "#drain", "cullface": "up"},
+				"east": {"uv": [11, 4, 12, 12], "rotation": 90, "texture": "#drain", "cullface": "up"},
+				"south": {"uv": [4, 11, 12, 12], "texture": "#drain", "cullface": "up"},
+				"west": {"uv": [4, 4, 5, 12], "rotation": 270, "texture": "#drain", "cullface": "up"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#drain", "cullface": "up"}
+			}
+		},
+		{
+			"name": "drain_bottom",
+			"from": [4, -0.5, 4],
+			"to": [12, 0, 12],
+			"faces": {
+				"north": {"uv": [4, 11, 12, 12], "rotation": 180, "texture": "#drain", "cullface": "down"},
+				"east": {"uv": [11, 4, 12, 12], "rotation": 270, "texture": "#drain", "cullface": "down"},
+				"south": {"uv": [4, 4, 12, 5], "texture": "#drain", "cullface": "down"},
+				"west": {"uv": [4, 4, 5, 12], "rotation": 90, "texture": "#drain", "cullface": "down"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#drain", "cullface": "down"}
+      }
+    }
+  ]
+}
